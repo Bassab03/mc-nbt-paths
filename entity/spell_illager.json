@@ -1,11 +1,10 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/mob.json"
-	],
+	"child_ref": ["../ref/mob.json"],
 	"children": {
 		"SpellTicks": {
-			"type": "int"
+			"type": "int",
+			"description": "How long until the illager casts a spell"
 		}
 	}
 }

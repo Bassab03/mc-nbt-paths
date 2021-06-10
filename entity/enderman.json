@@ -1,17 +1,25 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/mob.json"
-	],
+	"child_ref": ["../ref/mob.json"],
 	"children": {
 		"carriedBlockState": {
 			"type": "compound",
+			"description": "The carried block",
 			"children": {
 				"Name": {
-					"type": "string"
+					"type": "string",
+					"description": "ID of carried block",
+					"suggestions": [
+						{
+							"function": {
+								"id": "entityList"
+							}
+						}
+					]
 				},
 				"Properties": {
-					"type": "compound"
+					"type": "compound",
+					"description": "Name value pairs of block states and values"
 				}
 			}
 		}

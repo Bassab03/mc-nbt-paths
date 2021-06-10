@@ -1,58 +1,194 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/breedable.json"
-	],
+	"child_ref": ["../ref/breedable.json"],
 	"children": {
 		"Profession": {
-			"type": "int"
+			"type": "int",
+			"description": "Profession of the villager",
+			"suggestions": [
+				{
+					"value": "0",
+					"description": "Farmer"
+				},
+				{
+					"value": "1",
+					"description": "Librarian"
+				},
+				{
+					"value": "2",
+					"description": "Priest"
+				},
+				{
+					"value": "3",
+					"description": "Blacksmith"
+				},
+				{
+					"value": "4",
+					"description": "Butcher"
+				},
+				{
+					"value": "5",
+					"description": "Nitwit"
+				}
+			]
 		},
 		"Riches": {
 			"type": "int"
 		},
 		"Career": {
-			"type": "int"
+			"function": {
+				"id": "insertStringNBT",
+				"params": {
+					"ref": "#careers/%s",
+					"default": "#careers/none",
+					"tag_path": "./Profession"
+				}
+			},
+			"description": "Which careers the villager has"
 		},
 		"CareerLevel": {
-			"type": "int"
+			"type": "int",
+			"description": "Level of trading options"
 		},
 		"Willing": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Is the villager willing to breed"
 		},
 		"Inventory": {
 			"type": "list",
 			"item": {
-				"ref": "./inventory-item.json"
-			}
+				"ref": "./inventory_item.json"
+			},
+			"description": "The items a villager has in their inventory"
 		},
 		"Offers": {
+			"description": "Trading offers",
 			"type": "compound",
 			"children": {
 				"Recipes": {
+					"description": "List of trading offers",
 					"type": "list",
 					"item": {
+						"description": "A trading offer",
 						"type": "compound",
 						"children": {
 							"rewardExp": {
-								"type": "byte"
+								"type": "byte",
+								"description": "How much XP is rewarded to the player"
 							},
 							"maxUses": {
-								"type": "int"
+								"type": "int",
+								"description": "How many times this trade can be used"
 							},
 							"uses": {
-								"type": "int"
+								"type": "int",
+								"description": "How many times this trade has been used"
 							},
 							"buy": {
-								"ref": "../ref/inventory-item.json"
+								"ref": "../ref/inventory_item.json",
+								"description": "The first item the villager is buying"
 							},
 							"buyB": {
-								"ref": "../ref/inventory-item.json"
+								"ref": "../ref/inventory_item.json",
+								"description": "The second item the villager is buying"
 							},
 							"sell": {
-								"ref": "../ref/inventory-item.json"
+								"ref": "../ref/inventory_item.json",
+								"description": "The item the villager is selling"
 							}
 						}
 					}
+				}
+			}
+		}
+	},
+	"references": {
+		"careers": {
+			"references": {
+				"0": {
+					"type": "int",
+					"suggestions": [
+						{
+							"value": "1",
+							"description": "Farmer"
+						},
+						{
+							"value": "2",
+							"description": "Fisherman"
+						},
+						{
+							"value": "3",
+							"description": "Shepherd"
+						},
+						{
+							"value": "4",
+							"description": "Fletcher"
+						}
+					]
+				},
+				"1": {
+					"type": "int",
+					"suggestions": [
+						{
+							"value": "1",
+							"description": "Librarian"
+						},
+						{
+							"value": "2",
+							"description": "Cartographer"
+						}
+					]
+				},
+				"2": {
+					"type": "int",
+					"suggestions": [
+						{
+							"value": "1",
+							"description": "Cleric"
+						}
+					]
+				},
+				"3": {
+					"type": "int",
+					"suggestions": [
+						{
+							"value": "1",
+							"description": "Armorer"
+						},
+						{
+							"value": "2",
+							"description": "Weapon Smith"
+						},
+						{
+							"value": "3",
+							"description": "Tool Smith"
+						}
+					]
+				},
+				"4": {
+					"type": "int",
+					"suggestions": [
+						{
+							"value": "1",
+							"description": "Butcher"
+						},
+						{
+							"value": "2",
+							"description": "Leatherworker"
+						}
+					]
+				},
+				"5": {
+					"type": "int",
+					"suggestions": [
+						{
+							"value": "1",
+							"description": "Nitwit"
+						}
+					]
+				},
+				"none": {
+					"type": "int"
 				}
 			}
 		}

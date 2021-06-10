@@ -1,0 +1,17 @@
+{
+	"type": "compound",
+	"child_ref": ["../ref/item_tag.json"],
+	"children": {
+		"BlockEntityTag": {
+			"description": "NBT data when placed",
+			"function": {
+				"id": "insertStringNBT",
+				"params": {
+					"ref": "../roots/blocks.json#%s",
+					"default": "../roots/blocks.json#none",
+					"tag_path": "./id"
+				}
+			}
+		}
+	}
+}

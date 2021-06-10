@@ -1,11 +1,10 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/horse.json"
-	],
+	"child_ref": ["../ref/horse.json"],
 	"children": {
 		"Variant": {
-			"type": "int"
+			"type": "int",
+			"description": "Type of horse"
 		}
 	}
 }

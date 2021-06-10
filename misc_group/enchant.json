@@ -1,0 +1,150 @@
+[
+	{
+		"value": "minecraft:protection",
+		"description": "Protection"
+	},
+	{
+		"value": "minecraft:fire_protection",
+		"description": "Fire Protection"
+	},
+	{
+		"value": "minecraft:feather_falling",
+		"description": "Feather Falling"
+	},
+	{
+		"value": "minecraft:blast_protection",
+		"description": "Blast Protection"
+	},
+	{
+		"value": "minecraft:projectile_protection",
+		"description": "Projectile Protection"
+	},
+	{
+		"value": "minecraft:respiration",
+		"description": "Respiration"
+	},
+	{
+		"value": "minecraft:aqua_affinity",
+		"description": "Aqua Affinity"
+	},
+	{
+		"value": "minecraft:thorns",
+		"description": "Thorns"
+	},
+	{
+		"value": "minecraft:depth_strider",
+		"description": "Depth Strider"
+	},
+	{
+		"value": "minecraft:frost_walker",
+		"description": "Frost Walker"
+	},
+	{
+		"value": "minecraft:binding_curse",
+		"description": "Curse of Binding"
+	},
+	{
+		"value": "minecraft:sharpness",
+		"description": "Sharpness"
+	},
+	{
+		"value": "minecraft:smite",
+		"description": "Smite"
+	},
+	{
+		"value": "minecraft:bane_of_arthropods",
+		"description": "Bane of Arthropods"
+	},
+	{
+		"value": "minecraft:knockback",
+		"description": "Knockback"
+	},
+	{
+		"value": "minecraft:fire_aspect",
+		"description": "Fire Aspect"
+	},
+	{
+		"value": "minecraft:looting",
+		"description": "Looting"
+	},
+	{
+		"value": "minecraft:sweeping_edge",
+		"description": "Sweeping Edge"
+	},
+	{
+		"value": "minecraft:efficiency",
+		"description": "Efficiency"
+	},
+	{
+		"value": "minecraft:silk_touch",
+		"description": "Silk Touch"
+	},
+	{
+		"value": "minecraft:unbreaking",
+		"description": "Unbreaking"
+	},
+	{
+		"value": "minecraft:fortune",
+		"description": "Fortune"
+	},
+	{
+		"value": "minecraft:power",
+		"description": "Power"
+	},
+	{
+		"value": "minecraft:punch",
+		"description": "Punch"
+	},
+	{
+		"value": "minecraft:flame",
+		"description": "Flame"
+	},
+	{
+		"value": "minecraft:infinity",
+		"description": "Infinity"
+	},
+	{
+		"value": "minecraft:luck_of_the_sea",
+		"description": "Luck of the Sea"
+	},
+	{
+		"value": "minecraft:lure",
+		"description": "Lure"
+	},
+	{
+		"value": "minecraft:loyalty",
+		"description": "Loyalty"
+	},
+	{
+		"value": "minecraft:impaling",
+		"description": "Impaling"
+	},
+	{
+		"value": "minecraft:riptide",
+		"description": "Riptide"
+	},
+	{
+		"value": "minecraft:channeling",
+		"description": "Channeling"
+	},
+	{
+		"value": "minecraft:multishot",
+		"description": "Multishot"
+	},
+	{
+		"value": "minecraft:quick_charge",
+		"description": "Quick Charge"
+	},
+	{
+		"value": "minecraft:piercing",
+		"description": "Piercing"
+	},
+	{
+		"value": "minecraft:mending",
+		"description": "Mending"
+	},
+	{
+		"value": "minecraft:vanishing_curse",
+		"description": "Curse of Vanishing"
+	}
+]

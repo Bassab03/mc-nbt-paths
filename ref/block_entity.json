@@ -1,0 +1,28 @@
+{
+	"type": "compound",
+	"children": {
+		"id": {
+			"type": "string",
+			"description": "The id of this block entity",
+			"suggestions": [
+				{
+					"function": {
+						"id": "blockList"
+					}
+				}
+			]
+		},
+		"x": {
+			"type": "int",
+			"description": "The x coordiate of this block entity"
+		},
+		"y": {
+			"type": "int",
+			"description": "The y coordiate of this block entity"
+		},
+		"z": {
+			"type": "int",
+			"description": "The z coordiate of this block entity"
+		}
+	}
+}

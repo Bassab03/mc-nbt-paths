@@ -4,11 +4,11 @@
 		"none": {
 			"type": "no-nbt"
 		},
-		"$../block/group/mob_head.json": {
-			"ref": "../ref/block-entity.json"
-		},
 		"$../block/group/shulker_box.json": {
 			"ref": "../block/chest.json"
+		},
+		"$../block/group/command_block.json": {
+			"ref": "../block/command_block.json"
 		},
 		"minecraft:banner": {
 			"ref": "../block/banner.json"
@@ -17,7 +17,7 @@
 			"ref": "../block/beacon.json"
 		},
 		"minecraft:bed": {
-			"ref": "../ref/block-entity.json"
+			"ref": "../ref/block_entity.json"
 		},
 		"minecraft:brewing_stand": {
 			"ref": "../block/brewing_stand.json"
@@ -25,14 +25,11 @@
 		"minecraft:chest": {
 			"ref": "../block/chest.json"
 		},
-		"minecraft:command_block": {
-			"ref": "../block/command_block.json"
-		},
 		"minecraft:comparator": {
 			"ref": "../block/comparator.json"
 		},
 		"minecraft:daylight_detector": {
-			"ref": "../ref/block-entity.json"
+			"ref": "../ref/block_entity.json"
 		},
 		"minecraft:dispenser": {
 			"ref": "../block/chest.json"
@@ -47,10 +44,10 @@
 			"ref": "../block/end_gateway.json"
 		},
 		"minecraft:end_portal": {
-			"ref": "../ref/block-entity.json"
+			"ref": "../ref/block_entity.json"
 		},
 		"minecraft:ender_chest": {
-			"ref": "../ref/block-entity.json"
+			"ref": "../ref/block_entity.json"
 		},
 		"minecraft:furnace": {
 			"ref": "../block/furnace.json"

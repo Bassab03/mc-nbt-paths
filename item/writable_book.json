@@ -1,12 +1,12 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/item-tag.json"
-	],
+	"child_ref": ["../ref/item_tag.json"],
 	"children": {
 		"pages": {
+			"description": "A list of pages",
 			"type": "list",
 			"item": {
+				"description": "The text on a page",
 				"type": "string"
 			}
 		}

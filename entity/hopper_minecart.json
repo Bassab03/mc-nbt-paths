@@ -1,15 +1,14 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"./minecart.json",
-		"../ref/inventory-holder.json"
-	],
+	"child_ref": ["./minecart.json", "../ref/inventory_holder.json"],
 	"children": {
 		"TransferCooldown": {
-			"type": "int"
+			"type": "int",
+			"description": "How many ticks until the next item gets transfered"
 		},
 		"Enabled": {
-			"type": "byte"
+			"type": "byte",
+			"description": "Is the hopper minecart enabled"
 		}
 	}
 }

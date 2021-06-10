@@ -11,7 +11,7 @@
 			"ref": "../ref/breedable.json"
 		},
 		"$../entity/group/fireball.json": {
-			"ref": "../ref/fireball.json"
+			"ref": "../ref/fireball_base.json"
 		},
 		"$../entity/group/throwable.json": {
 			"ref": "../ref/throwable.json"
@@ -51,9 +51,7 @@
 		},
 		"minecraft:husk": {
 			"type": "compound",
-			"child_ref": [
-				"../ref/zombie.json"
-			]
+			"child_ref": ["../ref/zombie.json"]
 		},
 		"minecraft:illusion_illager": {
 			"ref": "../entity/spell_illager.json"
@@ -114,9 +112,7 @@
 		},
 		"minecraft:zombie": {
 			"type": "compound",
-			"child_ref": [
-				"../ref/zombie.json"
-			]
+			"child_ref": ["../ref/zombie.json"]
 		},
 		"minecraft:zombie_horse": {
 			"ref": "../entity/horse.json"
@@ -195,6 +191,21 @@
 		},
 		"minecraft:shulker_bullet": {
 			"ref": "../entity/shulker_bullet.json"
+		},
+		"minecraft:turtle": {
+			"ref": "../entity/turtle.json"
+		},
+		"minecraft:phantom": {
+			"ref": "../entity/phantom.json"
+		},
+		"minecraft:trident": {
+			"ref": "../entity/trident.json"
+		},
+		"minecraft:cod_fish": {
+			"ref": "../entity/fish.json"
+		},
+		"minecraft:salmon_fish": {
+			"ref": "../entity/fish.json"
 		}
 	}
 }

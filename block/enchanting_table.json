@@ -1,11 +1,4 @@
 {
 	"type": "compound",
-	"child_ref": [
-		"../ref/block-entity.json"
-	],
-	"children": {
-		"CustomName": {
-			"type": "string"
-		}
-	}
+	"child_ref": ["../ref/block_entity.json", "../ref/nameable.json"]
 }
